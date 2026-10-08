@@ -1,0 +1,126 @@
+import "@fontsource/eczar/600.css";
+import "@fontsource/eczar/800.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "In The Punjab",
+  sub: { en: "North Indian restaurant · M3M IFC, Sector 66", hi: "नॉर्थ इंडियन रेस्टोरेंट · M3M IFC, सेक्टर 66" },
+  banner: { en: "Coming with family? Book a table on WhatsApp", hi: "परिवार के साथ आ रहे हैं? व्हाट्सऐप पर टेबल बुक कीजिए" },
+  phone: "917428291632",
+  phoneDisplay: "+91 74282 91632",
+  lat: 28.4052452,
+  lon: 77.0587071,
+  hours: [[12, 24], [12, 24], [12, 24], [12, 24], [12, 24], [12, 24], [12, 24]],
+  theme: {
+    dark: true,
+    bg: "#12090a",
+    bg2: "#1a0e0f",
+    panel: "#211314",
+    ink: "#f8eee4",
+    ink2: "#d3c1b4",
+    ink3: "#937f75",
+    line: "#3a2224",
+    accent: "#d9a441",
+    onAccent: "#241600",
+    display: "Eczar",
+    weight: 800,
+    upper: false,
+  },
+  scene: "pour",
+  align: "right",
+  hero: {
+    title: [
+      { en: "Amritsari chole,", hi: "अमृतसरी छोले," },
+      { en: "dal makhani, butter naan.", hi: "दाल मखनी, बटर नान।" },
+    ],
+    proof: {
+      en: "4.6 on Google from 208 reviews. Proper North Indian food in a Punjabi-themed dining room at M3M IFC, Sector 66.",
+      hi: "गूगल पर 208 रिव्यू से 4.6। पंजाबी अंदाज़ के डाइनिंग हॉल में असली नॉर्थ इंडियन खाना, M3M IFC, सेक्टर 66।",
+    },
+    fallback: "/img/p3.jpg",
+  },
+  marquee: ["Amritsari Chole", "Dal Makhani", "Butter Naan", "Mirch Malai Soya Tikka", "Mutton Biryani", "Mushroom Galauti", "Lachha Paratha"],
+  dishes: {
+    title: { en: "What to order, in guests' words", hi: "क्या मंगाएं, मेहमानों के शब्दों में" },
+    body: { en: "Every line is a real Google review.", hi: "हर लाइन असली गूगल रिव्यू है।" },
+    layout: "cards",
+    items: [
+      { name: { en: "Amritsari Chole", hi: "अमृतसरी छोले" }, quote: "Proper North Indian food ! Never disappoints ! The Amritsari Chole are a must try !" },
+      { name: { en: "Dal Makhani & Butter Naan", hi: "दाल मखनी और बटर नान" }, quote: "Butter naan tasted EPIC 5/5 And, the show’s topper was Daal makhani", img: "/img/p3.jpg" },
+      { name: { en: "Mirch Malai Soya Tikka", hi: "मिर्च मलाई सोया टिक्का" }, quote: "Tried their Mirch malai soya tikka 10/10" },
+      { name: { en: "Mutton Biryani", hi: "मटन बिरयानी" }, quote: "Food and service were both excellent. Mutton biryani is to die for 🫶🏼" },
+      { name: { en: "Mushroom Galauti", hi: "मशरूम गलौटी" }, quote: "Amazing food specially mushroom galauti kebabs are yummm" },
+    ],
+  },
+  gallery: {
+    title: { en: "From the kitchen", hi: "रसोई से" },
+    layout: "strip",
+    photos: [
+      { src: "/img/p9.jpg", alt: "Tandoori platter" },
+      { src: "/img/p4.jpg", alt: "Curry in a copper bowl" },
+      { src: "/img/p11.jpg", alt: "Seekh kebabs" },
+      { src: "/img/p13.jpg", alt: "Naan" },
+      { src: "/img/p7.jpg", alt: "Malai tikka" },
+    ],
+  },
+  feature: {
+    kind: "hosts",
+    title: { en: "Guests remember their server by name", hi: "मेहमान अपने सर्वर का नाम याद रखते हैं" },
+    body: { en: "Gautam alone is named in more than a dozen reviews.", hi: "अकेले गौतम का नाम दर्जन से ज़्यादा रिव्यू में है।" },
+    img: "/img/p1.jpg",
+    hosts: [
+      { name: "GAUTAM", quote: "Gautam was a fantastic host. Humble & hard working. Food is good & pleasant ambience." },
+      { name: "MS. AARTI", quote: "Excellent service by Ms. Aarti who made it even more memorable (the way she handled our kid with love and care while doing her duties so immaculately) :)" },
+      { name: "SHARIF", quote: "Sharif served us well, he recommended us dishes and those were delicious." },
+      { name: "RAJA", quote: "Raja our server was well trained and helped with wine selection." },
+    ],
+  },
+  reviews: {
+    title: { en: "167 of 208 reviews are five stars", hi: "208 में से 167 रिव्यू पांच स्टार" },
+    rating: 4.6,
+    dist: [167, 17, 7, 7, 10],
+    quotes: [
+      { quote: "Music is not too loud like other places, so you can chat with people around you.", stars: 5 },
+      { quote: "royal and elegant décor that beautifully represents a traditional Punjabi theme", stars: 5 },
+      { quote: "Courteous staff. Thanks to Mr. Mohit for serving us well. Has games to keep kids entertained.", stars: 4 },
+    ],
+  },
+  visit: {
+    title: { en: "Inside M3M IFC, Sector 66", hi: "M3M IFC के अंदर, सेक्टर 66" },
+    img: "/img/p2.jpg",
+    alt: "In The Punjab entrance",
+    address: { en: "M3M International Financial Center (IFC), Badshahpur, Sector 66, Gurugram", hi: "M3M इंटरनेशनल फ़ाइनेंशियल सेंटर (IFC), बादशाहपुर, सेक्टर 66, गुरुग्राम" },
+    note: { en: "Open 12pm to midnight, every day.", hi: "हर दिन दोपहर 12 से रात 12 बजे तक।" },
+  },
+  pour: { from: "pan", into: "kadhai", liquid: "#4f1f10", foam: "#7a3a1c", thick: 2.4, hot: true, butter: true },
+  story: [
+    { kicker: { en: "The chole", hi: "छोले" }, title: { en: "Amritsari chole, a must.", hi: "अमृतसरी छोले, ज़रूर।" }, quote: "The Amritsari Chole are a must try !" },
+    { kicker: { en: "The dal", hi: "दाल" }, title: { en: "The show's topper.", hi: "शो का टॉपर।" }, quote: "Butter naan tasted EPIC 5/5 And, the show’s topper was Daal makhani" },
+    { kicker: { en: "The people", hi: "लोग" }, title: { en: "Ask for Gautam.", hi: "गौतम को पूछिए।" }, quote: "if you wanna have a great time look for Gautam." },
+  ],
+  build: {
+    title: { en: "Book a table in a few taps", hi: "कुछ टैप में टेबल बुक कीजिए" },
+    body: { en: "Pick what you're coming for, how many and when. It goes to WhatsApp exactly as you see it.", hi: "क्या खाना है, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    pick: { label: { en: "Meal", hi: "खाना" }, options: [
+      { name: { en: "Lunch", hi: "लंच" } },
+      { name: { en: "Dinner", hi: "डिनर" } },
+      { name: { en: "Takeaway", hi: "पैक करवाना" } },
+    ] },
+    items: [
+      { en: "Amritsari Chole", hi: "अमृतसरी छोले" },
+      { en: "Dal Makhani", hi: "दाल मखनी" },
+      { en: "Butter Naan", hi: "बटर नान" },
+      { en: "Mirch Malai Soya Tikka", hi: "मिर्च मलाई सोया टिक्का" },
+      { en: "Mutton Biryani", hi: "मटन बिरयानी" },
+      { en: "Mushroom Galauti", hi: "मशरूम गलौटी" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi In The Punjab, I'd like:", hi: "नमस्ते इन द पंजाब, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi In The Punjab, I'd like to book a table. People: , date: , time: ",
+    hi: "नमस्ते इन द पंजाब, मुझे टेबल बुक करनी है। लोग: , तारीख़: , समय: ",
+  },
+  order: ["build", "feature", "dishes", "gallery", "reviews", "visit"],
+};
