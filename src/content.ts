@@ -38,6 +38,7 @@ export const SITE: Site = {
       hi: "गूगल पर 208 रिव्यू से 4.6। पंजाबी अंदाज़ के डाइनिंग हॉल में असली नॉर्थ इंडियन खाना, M3M IFC, सेक्टर 66।",
     },
     fallback: "/img/p3.jpg",
+    slides: ["/img/p3.jpg", "/img/p1.jpg", "/img/p11.jpg", "/img/p7.jpg"],
   },
   marquee: ["Amritsari Chole", "Dal Makhani", "Butter Naan", "Mirch Malai Soya Tikka", "Mutton Biryani", "Mushroom Galauti", "Lachha Paratha"],
   dishes: {
